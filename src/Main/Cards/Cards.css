@@ -1,0 +1,114 @@
+.section-four-container {
+  margin: 0 15px;
+  
+}
+
+.section-six-container {
+  margin: 0 15px;
+}
+
+.section-four-card {
+  position: relative;
+  width: 360px;
+  height: 626px;
+  /* background-color: yellow; */
+  border-radius: 10px;
+  background: #aee8fb;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.four-card-two {
+  background-color: #f3e9e2;
+}
+
+.section-four-card h4 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+
+.section-four-card img {
+  width: 85.55555%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding-top: 26px;
+  margin-bottom: 20px;
+}
+
+.section-four-teg {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  text-align: start;
+}
+
+.section-four-card-text {
+  line-height: 19.52px; /* 122% */
+  max-width: 303px;
+  margin: 0 auto;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.52px; /* 122% */
+}
+.section-four-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 26px;
+  width: 153px;
+  height: 43px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #aee8fb;
+}
+
+.section-four-button p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1120px) {
+  .section-six-card-container {
+    column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .section-six-card {
+    margin: 0 auto;
+  }
+
+  .section-four-card-container {
+    column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  
+
+}
